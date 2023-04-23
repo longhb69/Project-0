@@ -21,7 +21,7 @@ label {
 }
 .advanced-form {
     font-size: 16px;
-    margin: 50px;
+    margin: 40px;
 }
 #search-btn {
     width: 150px;
@@ -36,4 +36,28 @@ label {
 }
 .body {
     max-width: 750px;
+}
+.advanced-h1 {
+    color: #d93025;
+    font-size: 25px;
+    margin: 25px 35px;
+}
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+.navbar-item{
+    margin: 10px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
 }
